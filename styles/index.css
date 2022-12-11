@@ -39,7 +39,7 @@ display: inline;
     text-align: left;
     text-decoration: none;
 }
-/*header-section*/
+/*header-section comment from remote*/
 .header-section{
     grid-area: header-section;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3s-ygrSUGjha3wNKKQpepTt22hxzpJDSVqg&usqp=CAU');
