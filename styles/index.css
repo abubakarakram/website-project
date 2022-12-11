@@ -1,0 +1,107 @@
+.main-container{
+    display: grid;
+    grid-template-areas: 'nav nav nav' 'header-section header-section header-section' 'intro-section intro-section intro-section' 'service-section service-section service-section' 'post-section post-section post-section' 'footer-section footer-section footer-section';
+  
+}
+.nav{
+   display: inline;
+    grid-area: nav;
+    background-color: #000000;
+    color: white;
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul li{
+    padding: 1.2rem;
+    display: inline;
+    /* justify-content: flex-end; */
+    flex-wrap: wrap-reverse;
+    margin-bottom: 1.2rem;
+}
+.nav ul a:hover{
+
+    height: inherit;
+    overflow: hidden;
+    color: yellow;
+}
+
+.logo{
+    float: left !important;
+    padding-left: 6rem;
+}
+.nav ul li a{
+
+display: inline;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+.header-section{
+    grid-area: header-section;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3s-ygrSUGjha3wNKKQpepTt22hxzpJDSVqg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 18rem;
+}
+.header-section h1{
+    color: red;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.intro-section{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    grid-area: intro-section;
+     background-color: aquamarine;
+    height: 8rem; 
+    padding: 5rem;
+    border: 7px solid pink;
+}
+.intro-section1{
+    grid-column: 1/2;
+    grid-row: 1;
+    border: 3px solid hotpink;
+   
+}
+.intro-section1 div{
+    padding-left: 3rem;
+}
+.intro-section1 div strong{
+    width: ;
+}
+.intro-section2{
+    grid-column: 2/3;
+    grid-row: 1;
+    border: 3px solid orange;
+}
+
+.service-section{
+grid-area: service-section;
+background-color: mediumpurple;
+height: 7rem;
+}
+.post-section{
+    grid-area: post-section;
+    background-color: lightblue;
+    height: 9rem;
+    
+}
+.footer-section{
+ grid-area: footer-section; 
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3s-ygrSUGjha3wNKKQpepTt22hxzpJDSVqg&usqp=CAU');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+background-color: red; 
+height: 10rem;
+}
+footer{
+    text-align: center;
+}
